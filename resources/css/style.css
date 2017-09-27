@@ -18,14 +18,10 @@ text-rendering: optimizeLegibility;
     margin: 0 auto;
 )
 
-header {
-    float: left;
-    margin:0 0 30px 0;
-    padding: 5px 0 0 0 ;
-    width: 100%;
-background-image:
-  linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
-  url('hero.jpg');
+
+header (
+    background-image: url(img/hero.jpg);
+    height: 100vh;
 )
 
 h1  (
